@@ -257,7 +257,7 @@ public class Tela extends javax.swing.JFrame {
                 .addGap(41, 41, 41))
         );
 
-        jTabbedPane1.addTab("(C)adastrar", jPanel1);
+        jTabbedPane1.addTab("Cadastrar", jPanel1);
 
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 153, 255));
@@ -329,7 +329,7 @@ public class Tela extends javax.swing.JFrame {
                 .addContainerGap(14, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("(L)istar", jPanel2);
+        jTabbedPane1.addTab("Listar", jPanel2);
 
         jLabel3.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(102, 153, 255));
@@ -382,7 +382,7 @@ public class Tela extends javax.swing.JFrame {
                 .addGap(68, 68, 68))
         );
 
-        jTabbedPane1.addTab("(B)uscar", jPanel3);
+        jTabbedPane1.addTab("Buscar", jPanel3);
 
         lbIdEditar.setText("Id:");
 
@@ -522,7 +522,7 @@ public class Tela extends javax.swing.JFrame {
                 .addGap(32, 32, 32))
         );
 
-        jTabbedPane1.addTab("(E)ditar", jPanel4);
+        jTabbedPane1.addTab("Editar", jPanel4);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
