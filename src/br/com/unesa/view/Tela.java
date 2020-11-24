@@ -127,7 +127,7 @@ public class Tela extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel1.setForeground(new java.awt.Color(102, 153, 255));
         jLabel1.setText("CADASTRO");
 
         lbEndereco.setText("Endereço:");
@@ -156,7 +156,7 @@ public class Tela extends javax.swing.JFrame {
             }
         });
 
-        btCadastrar.setForeground(new java.awt.Color(0, 153, 153));
+        btCadastrar.setForeground(new java.awt.Color(102, 153, 255));
         btCadastrar.setText("Cadastrar");
         btCadastrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -260,7 +260,7 @@ public class Tela extends javax.swing.JFrame {
         jTabbedPane1.addTab("(C)adastrar", jPanel1);
 
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel2.setForeground(new java.awt.Color(102, 153, 255));
         jLabel2.setText("CLIENTES");
 
         lstCliente.setModel(new javax.swing.AbstractListModel<String>() {
@@ -271,7 +271,7 @@ public class Tela extends javax.swing.JFrame {
         lstCliente.setModel(model);
         jScrollPane2.setViewportView(lstCliente);
 
-        btExcluir.setForeground(new java.awt.Color(0, 153, 153));
+        btExcluir.setForeground(new java.awt.Color(102, 153, 255));
         btExcluir.setText("Excluir");
         btExcluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -279,7 +279,7 @@ public class Tela extends javax.swing.JFrame {
             }
         });
 
-        btEditar.setForeground(new java.awt.Color(0, 153, 153));
+        btEditar.setForeground(new java.awt.Color(102, 153, 255));
         btEditar.setText("Editar");
         btEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -332,9 +332,10 @@ public class Tela extends javax.swing.JFrame {
         jTabbedPane1.addTab("(L)istar", jPanel2);
 
         jLabel3.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel3.setForeground(new java.awt.Color(102, 153, 255));
         jLabel3.setText("Buscar por Id");
 
+        btBuscar.setForeground(new java.awt.Color(102, 153, 255));
         btBuscar.setText("Buscar");
         btBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -386,10 +387,10 @@ public class Tela extends javax.swing.JFrame {
         lbIdEditar.setText("Id:");
 
         lbEdicaoCliente.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        lbEdicaoCliente.setForeground(new java.awt.Color(0, 153, 153));
+        lbEdicaoCliente.setForeground(new java.awt.Color(102, 153, 255));
         lbEdicaoCliente.setText("ATUALIZAÇÃO");
 
-        btAtualizar.setForeground(new java.awt.Color(0, 153, 153));
+        btAtualizar.setForeground(new java.awt.Color(102, 153, 255));
         btAtualizar.setText("Atualizar");
         btAtualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
