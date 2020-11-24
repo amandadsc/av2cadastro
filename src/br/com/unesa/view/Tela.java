@@ -39,15 +39,6 @@ public class Tela extends javax.swing.JFrame {
         });
     }
     
-    /*
-    ("Id: "+cliente.getId()+" | Nome: "+cliente.getNome()
-                    +" | Endereço: "+cliente.getEndereco()+" | E-mail: "+cliente.getEmail()
-                    +" | Tipo: "+cliente.getTipo()+" | CPF: "+fisico.getCpf()
-                    +" | CNPJ: "+juridico.getCnpj()+" | RG: "
-                    +fisico.getRg()+" | Insc. Estadual: "
-                    +juridico.getInscEstadual())
-    */
-    
     /**
      * Creates new form Tela
      */
@@ -596,8 +587,12 @@ public class Tela extends javax.swing.JFrame {
 
     private void btExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btExcluirActionPerformed
         if (lstCliente.getSelectedValue() != null){
-            controller.excluir(lista.get(lstCliente.getSelectedIndex()).getId());
-            carregarLista();
+            int resp = JOptionPane.showConfirmDialog(rootPane, "Deseja realmente excluir o cliente "
+                    +lista.get(lstCliente.getSelectedIndex()).getNome()+ "?");
+            if(resp == JOptionPane.YES_OPTION){
+                controller.excluir(lista.get(lstCliente.getSelectedIndex()).getId());
+                carregarLista();
+            }
         }    
     }//GEN-LAST:event_btExcluirActionPerformed
 
